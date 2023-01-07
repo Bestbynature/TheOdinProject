@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, rgb(121, 214, 93), rgb(52, 202, 240));
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav{
+    flex: 1;
+    text-align: right;
+}
+
+.navbar nav ul{
+display: inline-block;
+list-style-type: none;
+}
+
+.navbar nav ul li{
+display: inline-block;
+margin: 20px;
+}
+
+.navbar nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.navbar nav ul li a:hover{
+    color: coral;
+}
+
+.row{
+    display: flex;
+}
+
+.col1{
+    flex-basis: 70%;
+    border-right: 2px solid white;
+}
+
+.col1 div{
+    width: 90%;
+    height: 50vh;
+    border: 2px solid rgb(219, 9, 72);
+    margin: 20px auto;
+}
+
+.col1 div iframe{
+    width: 100%;
+    height: 100%
+}
+
+.col2{
+    flex-basis: 30%;
+}
+
+.col2 h2{
+    text-align: center;
+}
+
+.thumbnails{
+    background: url(./images/Texture-web.png);
+}
+.thumbnails h5{
+    text-align: center;
+    margin-top: 0;
+}
+.thumbnails div{
+    width: 60%;
+    height: 30vh;
+    margin: 5px auto;
+    border: 1px solid greenyellow;
+}
+.thumbnails div img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+   
+}
+
+
+/* .thumbnails img{
+    width: 80%;
+} */
